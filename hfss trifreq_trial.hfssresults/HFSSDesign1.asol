@@ -1,0 +1,140 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002018, month=000000000002, day=000000000020, hour=000000000014, min=000000000011, sec=000000000044)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000003159, lin=000000000117, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock16'
+	ProductName=''
+	CircuitName='HFSSDesign1'
+	VersionID=2803
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=2865
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='a=\'98.58mm\' b=\'100.54mm\' h=\'1.6mm\'', ID=2473)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'MI'
+	$end 'MI'
+$end 'SolutionBlock16'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock16'
+	'SolutionKey(SimSetup=34, Instance=\'SetupDefinition\', Solution=-1, VersionID=2803)'='SolutionBlock47'
+	'SolutionKey(SimSetup=34, Instance=\'SolutionDefinition\', Solution=35, VersionID=2803)'='SolutionBlock44'
+	'SolutionKey(SimSetup=34, Instance=\'SolutionDefinition\', Solution=36, VersionID=2803)'='SolutionBlock45'
+	'SolutionKey(SimSetup=34, Instance=\'SolutionDefinition\', Solution=37, VersionID=2803)'='SolutionBlock46'
+$end 'BlockMapName'
+$begin 'SolutionBlock44'
+	SolutionName='AdaptivePass'
+	SolutionID=35
+	V=2803
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(930000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+$end 'SolutionBlock44'
+$begin 'SolutionBlock45'
+	SolutionName='LastAdaptive'
+	SolutionID=36
+	V=2803
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(930000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+$end 'SolutionBlock45'
+$begin 'SolutionBlock46'
+	SolutionName='Sweep1'
+	SolutionID=37
+	V=2803
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=true
+		SweepDefType='LIN'
+		StartFreq=700000000
+		StopFreq=3000000000
+		StepSize=1000000
+		SolutionType=4
+		CenterFreq=1850000000
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=0
+	KeepAllFastSweepFields=false
+$end 'SolutionBlock46'
+$begin 'SolutionBlock47'
+	SimSetupID=34
+	SimSetupName='Setup1'
+	VersionID=2803
+	IsImported=false
+	IsTable=false
+	SolveSetupID=0
+	$begin 'MI'
+	$end 'MI'
+$end 'SolutionBlock47'
+$begin 'SolutionBlock1'
+	ProductName=''
+	CircuitName='HFSSDesign1'
+	VersionID=2446
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=2507
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='', ID=2506)
+		Map(V='a=\'98.58mm\' b=\'100.54mm\' h=\'1.6mm\'', ID=2473)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'InitialMeshes'
+		M(VID=2473, Ver=2446, Dir='DV2473_V2446.imesh/')
+	$end 'InitialMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=2473, Ver=2446, Dir='DV2473_MI0_V2446.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock1'
+$begin 'SolutionBlock5'
+$end 'SolutionBlock5'
+$begin '$index$'
+	$begin '$index$'
+		SolutionBlock5(pos=3113, lin=115, lvl=0)
+		SolutionBlock44(pos=1229, lin=24, lvl=0)
+		SolutionBlock45(pos=1588, lin=42, lvl=0)
+		SolutionBlock46(pos=1947, lin=60, lvl=0)
+		SolutionBlock47(pos=2366, lin=81, lvl=0)
+		SolutionBlock16(pos=370, lin=1, lvl=0)
+		BlockMapName(pos=728, lin=17, lvl=0)
+		SolutionBlock1(pos=2541, lin=91, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=3159, lin=117, lvl=0)
+	$end '$index$'
+$end '$index$'

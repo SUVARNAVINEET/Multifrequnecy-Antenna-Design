@@ -1,0 +1,96 @@
+$begin 'CacheDataVersion'
+	DataVersion=67
+$end 'CacheDataVersion'
+$begin 'InterrogationCache'
+	Version=1
+	$begin 'VariableValues'
+		h='1.6mm'
+		a='98.58mm'
+		b='100.54mm'
+	$end 'VariableValues'
+	$begin 'ValidationStatus'
+		$begin 'Options'
+			EntityCheckLevel='Strict'
+			IgnoreUnclassifiedObjects=false
+			SkipIntersectionChecks=false
+		$end 'Options'
+		Status=true
+	$end 'ValidationStatus'
+	$begin 'BodyCaches'
+		$begin '6'
+			$begin 'CheckStatus'
+				CheckLevel=20
+				Status=true
+			$end 'CheckStatus'
+			$begin 'BoundingBox'
+				Low[3: -49.289999999999999, -50.270000000000003, -1.6000000000000001]
+				High[3: 49.289999999999999, 50.270000000000003, 0]
+				Exact=false
+				Valid=true
+			$end 'BoundingBox'
+		$end '6'
+		$begin '34'
+			$begin 'CheckStatus'
+				CheckLevel=20
+				Status=true
+			$end 'CheckStatus'
+			$begin 'Properties'
+				Volume='0'
+				Area='1389.9631999999999'
+				Valid=true
+			$end 'Properties'
+			$begin 'BoundingBox'
+				Low[3: -49.25, -20.289999999999999, 0]
+				High[3: 18.25, 20.289999999999999, 0]
+				Exact=false
+				Valid=true
+			$end 'BoundingBox'
+		$end '34'
+		$begin '46'
+			$begin 'CheckStatus'
+				CheckLevel=20
+				Status=true
+			$end 'CheckStatus'
+			$begin 'Properties'
+				Volume='0'
+				Area='9911.2332000000006'
+				Valid=true
+			$end 'Properties'
+			$begin 'BoundingBox'
+				Low[3: -49.289999999999999, -50.270000000000003, -1.6000000000000001]
+				High[3: 49.289999999999999, 50.270000000000003, -1.6000000000000001]
+				Exact=false
+				Valid=true
+			$end 'BoundingBox'
+		$end '46'
+		$begin '124'
+			$begin 'CheckStatus'
+				CheckLevel=20
+				Status=true
+			$end 'CheckStatus'
+			$begin 'Properties'
+				Volume='0'
+				Area='4.8000000000000007'
+				Valid=true
+			$end 'Properties'
+			$begin 'BoundingBox'
+				Low[3: -49.25, -1.5, -1.6000000000000001]
+				High[3: -49.25, 1.5, 0]
+				Exact=false
+				Valid=true
+			$end 'BoundingBox'
+		$end '124'
+		$begin '136'
+			$begin 'CheckStatus'
+				CheckLevel=20
+				Status=true
+			$end 'CheckStatus'
+			$begin 'BoundingBox'
+				Low[3: -49.289999999999999, -50.270000000000003, 0]
+				High[3: 49.289999999999999, 50.270000000000003, 77.180000000000007]
+				Exact=false
+				Valid=true
+			$end 'BoundingBox'
+		$end '136'
+	$end 'BodyCaches'
+$end 'InterrogationCache'
